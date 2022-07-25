@@ -306,6 +306,19 @@ header .header-content .content p {
     text-align: justify;
 }
 
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.active {
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+
 .gallery h2 {
     text-align: center;
     color: #111;
@@ -326,7 +339,9 @@ header .header-content .content p {
     height: 100%;
     overflow: hidden;
     margin-bottom: 30px;
+
 }
+
 
 .gallery .images .imgBox div img {
     border-radius: 5px;
